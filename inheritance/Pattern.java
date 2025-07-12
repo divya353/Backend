@@ -1,9 +1,8 @@
 package inheritance;
 
-public class Pattern  extends Array3{
-
-	public void four() {
-		for(int i=1;i<=5;i++) {
+public class Pattern extends Function1 {
+	public void h() {
+		for(int i=5;i>=1;i--) {
 			for(int j=1;j<=i;j++) {
 				System.out.print(" *");
 			}
@@ -11,4 +10,5 @@ public class Pattern  extends Array3{
 		}
 
 	}
+
 }

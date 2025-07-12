@@ -1,8 +1,16 @@
 package inheritance;
 
-public class Array2 extends Pattern  {
-	public void three() {
-		int arr[][]= {{1,2,3},{4,5,6}};
-		System.out.println(arr[0][2]);
+public class Array2 {
+	public void  m4() {
+		int arr[][][] = {
+				{
+					{10,20,30},
+					{40,50,60},
+					{70,80,90}
+				}
+		};
+		
+		System.out.println(arr[0][1][2]);
+
 	}
 }
